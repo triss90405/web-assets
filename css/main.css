@@ -1155,6 +1155,12 @@ body {
 
 .container {
   margin: 50px auto 0px auto; }
+  .container h1 {
+    font-weight: 300;
+    text-align: center; }
+  .container hr {
+    margin: 50px;
+    background: #d1d1d1; }
 
 .box {
   background: rgba(158, 158, 158, 0.2);
