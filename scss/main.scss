@@ -1,0 +1,262 @@
+
+/* Page styles */
+
+// Imports
+@import "normalize";
+@import "sceletus";
+@import "colours";
+
+
+// General page styles
+body {
+	background: url("../img/photography.png")
+}
+.container{
+	margin: 50px auto 0px auto;
+}
+
+
+// Box styles
+.box {
+	background: fade-out($grey, 0.8);
+	width: 100%;
+	border-radius: 5px;
+
+	.header {
+		background: fade-out($grey, 0.3);
+		color: $paper;
+		border-radius: 5px 5px 0px 0px;
+		padding: 10px 10px 10px 10px;
+		h2 {
+			line-height: 1;
+			margin-bottom: 0px;
+			text-transform: uppercase
+		}
+	}
+	.content {
+		padding: 10px;
+		img {
+			vertical-align: middle;
+			position: relative;
+			bottom: 2px;
+			margin-right: 5px;
+		}
+		a{
+			font-size: 18px;
+			text-decoration: none;
+			line-height: 1.8;
+			color: $gunMetal;
+			&:hover {
+				color: darken($gunMetal, 20%);
+			}
+		}
+	}
+	
+	// Green layout
+	&.green {
+		background: fade-out($emerald, 0.8);
+		.header {
+			background: fade-out($emerald, 0.3);
+		}
+		.content {
+			a{
+				color: $emerald;
+				&:hover {
+					color: darken($emerald, 20%);
+				}
+			}
+		}
+	}
+
+	// Blue layout
+	&.blue {
+		background: fade-out($belize, 0.8);
+		.header {
+			background: fade-out($belize, 0.3);
+		}
+		.content {
+			a{
+				color: $belize;
+				&:hover {
+					color: darken($belize, 20%);
+				}
+			}
+		}
+	}
+
+	// Red layout
+	&.red {
+		background: fade-out($alizarin, 0.8);
+		.header {
+			background: fade-out($alizarin, 0.3);
+		}
+		.content {
+			a{
+				color: $alizarin;
+				&:hover {
+					color: darken($alizarin, 20%);
+				}
+			}
+		}
+	}
+
+	// Red layout
+	&.yellow {
+		background: fade-out($sunflower, 0.8);
+		.header {
+			background: fade-out($sunflower, 0.3);
+		}
+		.content {
+			a{
+				color: $sunflower;
+				&:hover {
+					color: darken($sunflower, 20%);
+				}
+			}
+		}
+	}
+
+	// Purple layout
+	&.purple {
+		background: fade-out($amethyst, 0.8);
+		.header {
+			background: fade-out($amethyst, 0.3);
+		}
+		.content {
+			a{
+				color: $amethyst;
+				&:hover {
+					color: darken($amethyst, 20%);
+				}
+			}
+		}
+	}
+
+	// Brown layout
+	&.brown {
+		background: fade-out($brown, 0.8);
+		.header {
+			background: fade-out($brown, 0.3);
+		}
+		.content {
+			a{
+				color: $brown;
+				&:hover {
+					color: darken($brown, 20%);
+				}
+			}
+		}
+	}
+
+	// Turqoise layout
+	&.turqoise {
+		background: fade-out($turqoise, 0.8);
+		.header {
+			background: fade-out($turqoise, 0.3);
+		}
+		.content {
+			a{
+				color: $turqoise;
+				&:hover {
+					color: darken($turqoise, 20%);
+				}
+			}
+		}
+	}
+
+	// Asbestos layout
+	&.asbestos {
+		background: fade-out($asbestos, 0.8);
+		.header {
+			background: fade-out($asbestos, 0.3);
+		}
+		.content {
+			a{
+				color: $asbestos;
+				&:hover {
+					color: darken($asbestos, 20%);
+				}
+			}
+		}
+	}
+
+	// Carrot layout
+	&.carrot {
+		background: fade-out($carrot, 0.8);
+		.header {
+			background: fade-out($carrot, 0.3);
+		}
+		.content {
+			a{
+				color: $carrot;
+				&:hover {
+					color: darken($carrot, 20%);
+				}
+			}
+		}
+	}
+
+	// midnightBlue layout
+	&.midnightBlue {
+		background: fade-out($midnightBlue, 0.8);
+		.header {
+			background: fade-out($midnightBlue, 0.3);
+		}
+		.content {
+			a{
+				color: $midnightBlue;
+				&:hover {
+					color: darken($midnightBlue, 20%);
+				}
+			}
+		}
+	}
+
+	// Pink layout
+	&.pink {
+		background: fade-out($pink, 0.8);
+		.header {
+			background: fade-out($pink, 0.3);
+		}
+		.content {
+			a{
+				color: $pink;
+				&:hover {
+					color: darken($pink, 20%);
+				}
+			}
+		}
+	}
+
+	// Pomegranate layout
+	&.pomegranate {
+		background: fade-out($pomegranate, 0.8);
+		.header {
+			background: fade-out($pomegranate, 0.3);
+		}
+		.content {
+			a{
+				color: $pomegranate;
+				&:hover {
+					color: darken($pomegranate, 20%);
+				}
+			}
+		}
+	}
+
+	// River layout
+	&.river {
+		background: fade-out($river, 0.8);
+		.header {
+			background: fade-out($river, 0.3);
+		}
+		.content {
+			a{
+				color: $river;
+				&:hover {
+					color: darken($river, 20%);
+				}
+			}
+		}
+	}
+}
