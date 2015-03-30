@@ -1194,7 +1194,7 @@ input:checked#error ~ .sceletus-alert.error {
 @media only screen and (min-width: 1280px) {
   .wrapper {
     width: 1260px; } }
-body {
+html, body {
   background: url("../img/photography.png"); }
 
 .wrapper {

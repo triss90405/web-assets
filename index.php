@@ -33,10 +33,10 @@
             <div class="item" style="padding: 5px">
                 <?php include("sections/colours.html"); ?>
             </div>
-            
-            <!--HTML-->
+
+            <!--CMS-->
             <div class="item" style="padding: 5px">
-                <?php include("sections/html.html"); ?>
+                <?php include("sections/cms.html"); ?>
             </div>
 
             <!--JAVASCRIPT-->
@@ -74,9 +74,9 @@
                 <?php include("sections/testing.html"); ?>
             </div>
 
-            <!--CMS-->
+            <!--HTML-->
             <div class="item" style="padding: 5px">
-                <?php include("sections/cms.html"); ?>
+                <?php include("sections/html.html"); ?>
             </div>
 
             <!--MISC-->
