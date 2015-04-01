@@ -106,19 +106,24 @@ textarea {
 			}
 		}	
 	}
+	
+	// Layout vars
+	$fadeout-1: 0.7;
+	$fadeout-2: 0.5;
+	$darken-percent: 20%;
 
 
 	// Green layout
 	&.green {
-		background: fade-out($emerald, 0.8);
+		background: fade-out($emerald, $fadeout-1);
 		.header {
-			background: fade-out($emerald, 0.3);
+			background: fade-out($emerald, $fadeout-2);
 		}
 		.content {
 			a{
 				color: $emerald;
 				&:hover {
-					color: darken($emerald, 20%);
+					color: darken($emerald, $darken-percent);
 				}
 			}
 		}
@@ -126,15 +131,15 @@ textarea {
 
 	// Blue layout
 	&.blue {
-		background: fade-out($belize, 0.8);
+		background: fade-out($belize, $fadeout-1);
 		.header {
-			background: fade-out($belize, 0.3);
+			background: fade-out($belize, $fadeout-2);
 		}
 		.content {
 			a{
 				color: $belize;
 				&:hover {
-					color: darken($belize, 20%);
+					color: darken($belize, $darken-percent);
 				}
 			}
 		}
@@ -142,15 +147,15 @@ textarea {
 
 	// Red layout
 	&.red {
-		background: fade-out($alizarin, 0.8);
+		background: fade-out($alizarin, $fadeout-1);
 		.header {
-			background: fade-out($alizarin, 0.3);
+			background: fade-out($alizarin, $fadeout-2);
 		}
 		.content {
 			a{
 				color: $alizarin;
 				&:hover {
-					color: darken($alizarin, 20%);
+					color: darken($alizarin, $darken-percent);
 				}
 			}
 		}
@@ -158,15 +163,15 @@ textarea {
 
 	// Red layout
 	&.yellow {
-		background: fade-out($sunflower, 0.8);
+		background: fade-out($sunflower, $fadeout-1);
 		.header {
-			background: fade-out($sunflower, 0.3);
+			background: fade-out($sunflower, $fadeout-2);
 		}
 		.content {
 			a{
 				color: darken($sunflower, 5%);
 				&:hover {
-					color: darken($sunflower, 20%);
+					color: darken($sunflower, $darken-percent);
 				}
 			}
 		}
@@ -174,15 +179,15 @@ textarea {
 
 	// Purple layout
 	&.purple {
-		background: fade-out($amethyst, 0.8);
+		background: fade-out($amethyst, $fadeout-1);
 		.header {
-			background: fade-out($amethyst, 0.3);
+			background: fade-out($amethyst, $fadeout-2);
 		}
 		.content {
 			a{
 				color: $amethyst;
 				&:hover {
-					color: darken($amethyst, 20%);
+					color: darken($amethyst, $darken-percent);
 				}
 			}
 		}
@@ -190,15 +195,15 @@ textarea {
 
 	// Brown layout
 	&.brown {
-		background: fade-out($brown, 0.8);
+		background: fade-out($brown, $fadeout-1);
 		.header {
-			background: fade-out($brown, 0.3);
+			background: fade-out($brown, $fadeout-2);
 		}
 		.content {
 			a{
 				color: $brown;
 				&:hover {
-					color: darken($brown, 20%);
+					color: darken($brown, $darken-percent);
 				}
 			}
 		}
@@ -206,15 +211,15 @@ textarea {
 
 	// Turqoise layout
 	&.turqoise {
-		background: fade-out($turqoise, 0.8);
+		background: fade-out($turqoise, $fadeout-1);
 		.header {
-			background: fade-out($turqoise, 0.3);
+			background: fade-out($turqoise, $fadeout-2);
 		}
 		.content {
 			a{
 				color: $turqoise;
 				&:hover {
-					color: darken($turqoise, 20%);
+					color: darken($turqoise, $darken-percent);
 				}
 			}
 		}
@@ -222,15 +227,15 @@ textarea {
 
 	// Asbestos layout
 	&.asbestos {
-		background: fade-out($asbestos, 0.8);
+		background: fade-out($asbestos, $fadeout-1);
 		.header {
-			background: fade-out($asbestos, 0.3);
+			background: fade-out($asbestos, $fadeout-2);
 		}
 		.content {
 			a{
 				color: $asbestos;
 				&:hover {
-					color: darken($asbestos, 20%);
+					color: darken($asbestos, $darken-percent);
 				}
 			}
 		}
@@ -238,15 +243,15 @@ textarea {
 
 	// Carrot layout
 	&.carrot {
-		background: fade-out($carrot, 0.8);
+		background: fade-out($carrot, $fadeout-1);
 		.header {
-			background: fade-out($carrot, 0.3);
+			background: fade-out($carrot, $fadeout-2);
 		}
 		.content {
 			a{
 				color: $carrot;
 				&:hover {
-					color: darken($carrot, 20%);
+					color: darken($carrot, $darken-percent);
 				}
 			}
 		}
@@ -254,15 +259,15 @@ textarea {
 
 	// midnightBlue layout
 	&.midnightBlue {
-		background: fade-out($midnightBlue, 0.8);
+		background: fade-out($midnightBlue, $fadeout-1);
 		.header {
-			background: fade-out($midnightBlue, 0.3);
+			background: fade-out($midnightBlue, $fadeout-2);
 		}
 		.content {
 			a{
 				color: $midnightBlue;
 				&:hover {
-					color: darken($midnightBlue, 20%);
+					color: darken($midnightBlue, $darken-percent);
 				}
 			}
 		}
@@ -270,15 +275,15 @@ textarea {
 
 	// Pink layout
 	&.pink {
-		background: fade-out($pink, 0.8);
+		background: fade-out($pink, $fadeout-1);
 		.header {
-			background: fade-out($pink, 0.3);
+			background: fade-out($pink, $fadeout-2);
 		}
 		.content {
 			a{
 				color: $pink;
 				&:hover {
-					color: darken($pink, 20%);
+					color: darken($pink, $darken-percent);
 				}
 			}
 		}
@@ -286,15 +291,15 @@ textarea {
 
 	// Pomegranate layout
 	&.pomegranate {
-		background: fade-out($pomegranate, 0.8);
+		background: fade-out($pomegranate, $fadeout-1);
 		.header {
-			background: fade-out($pomegranate, 0.3);
+			background: fade-out($pomegranate, $fadeout-2);
 		}
 		.content {
 			a{
 				color: $pomegranate;
 				&:hover {
-					color: darken($pomegranate, 20%);
+					color: darken($pomegranate, $darken-percent);
 				}
 			}
 		}
@@ -302,15 +307,15 @@ textarea {
 
 	// River layout
 	&.river {
-		background: fade-out($river, 0.8);
+		background: fade-out($river, $fadeout-1);
 		.header {
-			background: fade-out($river, 0.3);
+			background: fade-out($river, $fadeout-2);
 		}
 		.content {
 			a{
 				color: $river;
 				&:hover {
-					color: darken($river, 20%);
+					color: darken($river, $darken-percent);
 				}
 			}
 		}

@@ -1272,105 +1272,105 @@ textarea {
       .box .content a:hover .tooltip {
         display: block; }
   .box.green {
-    background: rgba(46, 204, 113, 0.2); }
+    background: rgba(46, 204, 113, 0.3); }
     .box.green .header {
-      background: rgba(46, 204, 113, 0.7); }
+      background: rgba(46, 204, 113, 0.5); }
     .box.green .content a {
       color: #2ecc71; }
       .box.green .content a:hover {
         color: #1b7943; }
   .box.blue {
-    background: rgba(41, 128, 185, 0.2); }
+    background: rgba(41, 128, 185, 0.3); }
     .box.blue .header {
-      background: rgba(41, 128, 185, 0.7); }
+      background: rgba(41, 128, 185, 0.5); }
     .box.blue .content a {
       color: #2980b9; }
       .box.blue .content a:hover {
         color: #164666; }
   .box.red {
-    background: rgba(231, 76, 60, 0.2); }
+    background: rgba(231, 76, 60, 0.3); }
     .box.red .header {
-      background: rgba(231, 76, 60, 0.7); }
+      background: rgba(231, 76, 60, 0.5); }
     .box.red .content a {
       color: #e74c3c; }
       .box.red .content a:hover {
         color: #a82315; }
   .box.yellow {
-    background: rgba(241, 196, 15, 0.2); }
+    background: rgba(241, 196, 15, 0.3); }
     .box.yellow .header {
-      background: rgba(241, 196, 15, 0.7); }
+      background: rgba(241, 196, 15, 0.5); }
     .box.yellow .content a {
       color: #dab10d; }
       .box.yellow .content a:hover {
         color: #927608; }
   .box.purple {
-    background: rgba(155, 89, 182, 0.2); }
+    background: rgba(155, 89, 182, 0.3); }
     .box.purple .header {
-      background: rgba(155, 89, 182, 0.7); }
+      background: rgba(155, 89, 182, 0.5); }
     .box.purple .content a {
       color: #9b59b6; }
       .box.purple .content a:hover {
         color: #623475; }
   .box.brown {
-    background: rgba(121, 85, 72, 0.2); }
+    background: rgba(121, 85, 72, 0.3); }
     .box.brown .header {
-      background: rgba(121, 85, 72, 0.7); }
+      background: rgba(121, 85, 72, 0.5); }
     .box.brown .content a {
       color: #795548; }
       .box.brown .content a:hover {
         color: #392822; }
   .box.turqoise {
-    background: rgba(26, 188, 156, 0.2); }
+    background: rgba(26, 188, 156, 0.3); }
     .box.turqoise .header {
-      background: rgba(26, 188, 156, 0.7); }
+      background: rgba(26, 188, 156, 0.5); }
     .box.turqoise .content a {
       color: #1abc9c; }
       .box.turqoise .content a:hover {
         color: #0e6252; }
   .box.asbestos {
-    background: rgba(127, 140, 141, 0.2); }
+    background: rgba(127, 140, 141, 0.3); }
     .box.asbestos .header {
-      background: rgba(127, 140, 141, 0.7); }
+      background: rgba(127, 140, 141, 0.5); }
     .box.asbestos .content a {
       color: #7f8c8d; }
       .box.asbestos .content a:hover {
         color: #4e5758; }
   .box.carrot {
-    background: rgba(230, 126, 34, 0.2); }
+    background: rgba(230, 126, 34, 0.3); }
     .box.carrot .header {
-      background: rgba(230, 126, 34, 0.7); }
+      background: rgba(230, 126, 34, 0.5); }
     .box.carrot .content a {
       color: #e67e22; }
       .box.carrot .content a:hover {
         color: #924d10; }
   .box.midnightBlue {
-    background: rgba(44, 62, 80, 0.2); }
+    background: rgba(44, 62, 80, 0.3); }
     .box.midnightBlue .header {
-      background: rgba(44, 62, 80, 0.7); }
+      background: rgba(44, 62, 80, 0.5); }
     .box.midnightBlue .content a {
       color: #2c3e50; }
       .box.midnightBlue .content a:hover {
         color: #080b0e; }
   .box.pink {
-    background: rgba(233, 30, 99, 0.2); }
+    background: rgba(233, 30, 99, 0.3); }
     .box.pink .header {
-      background: rgba(233, 30, 99, 0.7); }
+      background: rgba(233, 30, 99, 0.5); }
     .box.pink .content a {
       color: #e91e63; }
       .box.pink .content a:hover {
         color: #930e3b; }
   .box.pomegranate {
-    background: rgba(192, 57, 43, 0.2); }
+    background: rgba(192, 57, 43, 0.3); }
     .box.pomegranate .header {
-      background: rgba(192, 57, 43, 0.7); }
+      background: rgba(192, 57, 43, 0.5); }
     .box.pomegranate .content a {
       color: #c0392b; }
       .box.pomegranate .content a:hover {
         color: #6d2018; }
   .box.river {
-    background: rgba(52, 152, 219, 0.2); }
+    background: rgba(52, 152, 219, 0.3); }
     .box.river .header {
-      background: rgba(52, 152, 219, 0.7); }
+      background: rgba(52, 152, 219, 0.5); }
     .box.river .content a {
       color: #3498db; }
       .box.river .content a:hover {
