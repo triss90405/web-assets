@@ -225,17 +225,17 @@ textarea {
 		}
 	}
 
-	// Asbestos layout
-	&.asbestos {
-		background: fade-out($asbestos, $fadeout-1);
+	// Turqoise layout
+	&.turqoise {
+		background: fade-out($turqoise, $fadeout-1);
 		.header {
-			background: fade-out($asbestos, $fadeout-2);
+			background: fade-out($turqoise, $fadeout-2);
 		}
 		.content {
 			a{
-				color: $asbestos;
+				color: $turqoise;
 				&:hover {
-					color: darken($asbestos, $darken-percent);
+					color: darken($turqoise, $darken-percent);
 				}
 			}
 		}

@@ -1327,14 +1327,14 @@ textarea {
       color: #1abc9c; }
       .box.turqoise .content a:hover {
         color: #0e6252; }
-  .box.asbestos {
-    background: rgba(127, 140, 141, 0.3); }
-    .box.asbestos .header {
-      background: rgba(127, 140, 141, 0.5); }
-    .box.asbestos .content a {
-      color: #7f8c8d; }
-      .box.asbestos .content a:hover {
-        color: #4e5758; }
+  .box.turqoise {
+    background: rgba(26, 188, 156, 0.3); }
+    .box.turqoise .header {
+      background: rgba(26, 188, 156, 0.5); }
+    .box.turqoise .content a {
+      color: #1abc9c; }
+      .box.turqoise .content a:hover {
+        color: #0e6252; }
   .box.carrot {
     background: rgba(230, 126, 34, 0.3); }
     .box.carrot .header {
