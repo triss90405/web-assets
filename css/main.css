@@ -1375,6 +1375,14 @@ textarea {
       color: #3498db; }
       .box.river .content a:hover {
         color: #196090; }
+  .box.lightBlue {
+    background: rgba(3, 169, 244, 0.3); }
+    .box.lightBlue .header {
+      background: rgba(3, 169, 244, 0.5); }
+    .box.lightBlue .content a {
+      color: #03a9f4; }
+      .box.lightBlue .content a:hover {
+        color: #02638f; }
 
 footer {
   text-align: center;

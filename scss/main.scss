@@ -320,6 +320,22 @@ textarea {
 			}
 		}
 	}
+
+	// River layout
+	&.lightBlue {
+		background: fade-out($lightBlue, $fadeout-1);
+		.header {
+			background: fade-out($lightBlue, $fadeout-2);
+		}
+		.content {
+			a{
+				color: $lightBlue;
+				&:hover {
+					color: darken($lightBlue, $darken-percent);
+				}
+			}
+		}
+	}
 }
 
 

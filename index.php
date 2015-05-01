@@ -111,6 +111,11 @@
                 <?php include("sections/marketing.html"); ?>
             </div>
 
+            <!--TOOLS-->
+            <div class="item" style="padding: 5px">
+                <?php include("sections/tools.html"); ?>
+            </div>
+
             <!--TESTING-->
             <div class="item" style="padding: 5px">
                 <?php include("sections/testing.html"); ?>
